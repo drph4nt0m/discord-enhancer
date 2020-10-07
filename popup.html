@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      background-color: #36393F;
+      color: #DCDDDE;
+      width: 200px;
+    }
+
+    .form-group {
+      display: flex;
+      gap: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <div class="form-group">
+      <input type="checkbox" id="channelList">
+      <label for="channelList">Hide Channel List</label>
+    </div>
+    <div class="form-group">
+      <input type="checkbox" id="serverList">
+      <label for="serverList">Hide Server List</label>
+    </div>
+    <div class="form-group">
+      <input type="checkbox" id="membersList">
+      <label for="membersList">Hide Members List</label>
+    </div>
+  </form>
+
+  <script src="popup.js"></script>
+
+</body>
+
+</html>
